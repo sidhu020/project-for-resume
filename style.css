@@ -35,15 +35,15 @@ textarea {
   font-size: 18px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  caret-color: #fff700;
 }
 
 iframe {
   height: 95%;
   width: 100%;
-  background: #fff;
+  background: #e6e6e6;
   color: #1f1f1f;
-  border: 0;
-  outline: 0;
+
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -60,6 +60,7 @@ label {
   height: 30px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  font-weight: 600;
 }
 
 .css-selector {
