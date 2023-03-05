@@ -105,3 +105,9 @@ label {
     background-position: 0% 48%;
   }
 }
+
+button
+{
+  position: absolute;
+  right: 0;
+}

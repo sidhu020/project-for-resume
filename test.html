@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#imgCat {
+  width: 25%;
+}
+</style>
+<body>
+<textarea id="txtContent" cols="60" rows="15"></textarea>
+    <br />
+    <button id="btnDownload"> Download PDF </button>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js">
+</script>
+
+<script>
+    var content = document.getElementById('txtContent'),
+button = document.getElementById('btnDownload');
+
+function generatePDF(){
+  var doc = new jsPDF();
+
+  doc.setFontSize(14);
+  doc.text(20, 20, content.value);
+  doc.save('my.pdf');
+}
+button.addEventListener('click',generatePDF);
+</script>
+</html>
