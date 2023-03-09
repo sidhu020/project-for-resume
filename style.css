@@ -28,14 +28,16 @@ textarea {
   width: 100%;
   height: 29%;
   background: #1f1f1f;
-  color: #fff;
+  color: #505050;
   padding: 10px 20px;
-  border: 0;
+  border-width: 3px;
+  border-color: #ff00e6;
   outline: 0;
   font-size: 18px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  caret-color: #fff700;
+  caret-color: #ffff00;
+  line-height: 1;
 }
 
 iframe {
@@ -43,6 +45,9 @@ iframe {
   width: 100%;
   background: #e6e6e6;
   color: #1f1f1f;
+  border-width: 10px;
+  border-color: aqua;
+  
 
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -64,7 +69,16 @@ label {
 }
 
 .css-selector {
-  background: linear-gradient(271deg, #000000, #8f8f8f, #ffffff, #46c1da);
+  background: linear-gradient(
+    271deg,
+    #bbbf42,
+    #ca7979,
+    #f08484,
+    #7076b9,
+    #b970a8,
+    #70aeb9,
+    #7db970
+  );
   background-size: 800% 800%;
 
   -webkit-animation: AnimationName 11s ease infinite;
@@ -106,8 +120,8 @@ label {
   }
 }
 
-button
-{
-position: relative;
-right: 0;
+button {
+  position: relative;
+  right: 0;
+  border-width: 2px;
 }

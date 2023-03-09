@@ -11,55 +11,59 @@
       crossorigin="anonymous"
     />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="style.css
-    "
-    />
+    <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="script.js"></script>
     <script
       src="https://kit.fontawesome.com/26efd432d4.js"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
   </head>
-  <body class="css-selector" onclick="run()"
-  onkeyup="run()">
+  <body class="css-selector" onclick="run()" onkeyup="run()">
     <div class="contener" id="contener">
       <div class="left" role="status">
         <label>
           <i class="fa-brands fa-html5" style="color: rgb(255, 89, 0)"></i
-          >HTML</label>
-
-        <textarea id="html-code"
+          >HTML</label
         >
+
+        <textarea id="html-code">
 <h1>
-    Hello
+  Hello
 </h1>
         </textarea>
 
         <label>
           <i class="fa-brands fa-css3-alt" style="color: rgb(0, 34, 255)"></i>
-          CSS</label>
-        <textarea id="css-code" >
+          CSS</label
+        >
+        <textarea id="css-code">
 h1
 {
-  color:red;
+  color : red;
 }
-          </textarea>
+          </textarea
+        >
 
         <label>
           <i class="fa-brands fa-js" style="color: rgb(255, 247, 0)"></i>
-          JAVASCRIPT</label>
-        <textarea id="js-code" >document.write("World!");</textarea>
+          JAVASCRIPT</label
+        >
+        <textarea id="js-code">document.write("World!");</textarea>
       </div>
       <div class="right">
         <label>
           <i class="fa-solid fa-play" style="color: rgb(32, 129, 15)"></i>
-          OUTPUT</label>
+          OUTPUT</label
+        >
         <iframe id="output"></iframe>
-        <button id="Save" class="btn btn btn-outline-success btn-lg " onclick="html(),css(),js()">Save</button>
+        <button
+          id="Save"
+          class="btn btn btn-outline-success btn-lg"
+          onclick="html(),css(),js()"
+        >
+          Save
+        </button>
       </div>
     </div>
   </body>
