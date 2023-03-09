@@ -40,7 +40,7 @@ textarea {
   line-height: 1;
 }
 
-iframe {
+#output {
   height: 90%;
   width: 100%;
   background: #e6e6e6;
